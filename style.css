@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: rgb(237, 215, 235);
+  background: radial-gradient(
+    circle,
+    rgba(237, 215, 235, 0.419047619047619) 0%,
+    rgb(53, 114, 73) 100%
+  );
+  height: 100vh;
+  min-height: 100px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.main #üst-link {
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 30px;
+  min-height: 400px;
+  font-size: 20px;
+  float: right;
+  left: 50%;
+}
+#üst-link li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(23, 20, 224);
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+nav ul li a:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
+nav img {
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.alt-baslik {
+  position: absolute;
+  top: 50%;
+  left: 800px;
+}
+.alt-baslik h1 {
+  font-family: cursive;
+  color: blueviolet;
+  font-size: 3rem;
+  transition: 1s linear;
+}
+.buttons {
+  position: absolute;
+  top: 60%;
+  left: 800px;
+}
+.btn {
+  border: 2px solid #ffff;
+  padding: 5px 10px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.btn:hover {
+  background-color: antiquewhite;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 5px;
+}
