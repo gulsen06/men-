@@ -9,6 +9,7 @@
     rgba(237, 215, 235, 0.419047619047619) 0%,
     rgb(53, 114, 73) 100%
   );
+  width: 100%;
   height: 100vh;
   min-height: 100px;
   background-position: center;
