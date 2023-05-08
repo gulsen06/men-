@@ -33,7 +33,7 @@ nav ul li a {
   color: rgb(23, 20, 224);
   padding: 5px 20px;
   border: 1px solid transparent;
-  transition: 0.5s ease;
+  transition: 1s ease;
 }
 nav ul li a:hover {
   background-color: lightcoral;
@@ -64,7 +64,7 @@ nav img {
 }
 .buttons {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 800px;
 }
 .btn {
